@@ -24,7 +24,7 @@ def buttonColours(buttons_tuple, reviewer, card):
                 colour = "black"
 
             # Add colour to button
-            font = "<font color='{}'>{}</font>".format(colour, text)
+             font = "<font color='{}' style='margin-top:-100px;'>{}</font>".format(colour, text)
 
             coloured_buttons.append((button[0], font))
 
